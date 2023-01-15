@@ -1,54 +1,7 @@
 /* your code here */
-.container {
-  width: 80%;
-  margin: 0 auto;
+price{
+    color: red;
 }
-
-.title {
-  text-align: center;
+.price span{
+    font-size: 40px;
 }
-
-.apples {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.apple {
-  width: 25%;
-  padding: 20px;
-  text-align: center;
-}
-
-.apple img {
-  width: 80%;
-}
-
-.name {
-  font-size: 1.5em;
-  margin-top: 20px;
-}
-
-.price {
-  font-size: 1.2em;
-  color: green;
-}
-
-.description {
-  margin-top: 10px;
-  font-size: 1.1em;
-  line-height: 1.5;
-}
-
-.add-to-cart {
-  margin-top: 10px;
-  padding: 10px 20px;
-  background-color: #4CAF50;
-  color: white;
-  border: none;
-  cursor: pointer;
-}
-
-.add-to-cart:hover {
-  background-color: #3e8e41;
-}
-
